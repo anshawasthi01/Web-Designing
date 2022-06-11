@@ -1,0 +1,40 @@
+  .card {
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+    
+    .label:after{
+    content:'Lotus Temple';
+}
+.label:hover:after{
+    content:'RedFort';
+    color: red;
+}
+
+ .leftDiv {
+
+     color: #000;
+     height: 400px;
+     width: 48%;
+     float: left;
+     text-align: left;
+ }
+ .rightDiv {
+     color: #000;
+     height: 400px;
+     width: 48%;
+     float: right;
+     text-align: right;
+ }
