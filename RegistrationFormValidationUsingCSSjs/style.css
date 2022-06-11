@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+
+html {
+  box-sizing: border-box;
+  }
+
+
+body {
+    background:#e7eefc none repeat scroll 0 0;
+    color: #222;
+    font-size: 100%;
+    line-height: 24px;
+    margin: 0;
+  padding:0;
+  font-family: "Raleway",sans-serif;
+  }
+
+
+.ScriptHeader {
+    float: left;
+    width: 100%;
+    padding: 2em 0;
+    margin: 0 auto;
+    text-align:center;
+    padding-left:12px;
+    padding-right:12px;
+  }
+
+
+.ScriptHeader h1{
+  font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+    color: #6a4aed;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+  }
+
+
+section {
+    float: left;
+    width: 100%;
+  padding-bottom:3em;
+  }
+
+
+.Scriptcontent{
+  line-height:28px; 
+  margin: 0 auto;
+  padding-left:12px;
+  padding-right:12px;
+  width:100%;
+  }
+
+.reg-form {
+  background: lightgreen;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 15px auto;
+  padding: 15px;
+  width: 600px;
+}
+
+
+.helper-text {
+  font-size: 12px;
+  margin-botom: 10px;
+  text-align: right;
+}
+
+
+.field-row {
+  position: relative;
+  width: 100%;
+}
+
+
+.form-label {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 5px 5px 0;
+  text-align: right;
+  width: 100px;
+  }
+
+
+.field {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 240px;
+}
+
+
+.text-field:focus:required:valid {
+  outline: green solid 2px;
+}
+
+
+.text-field:focus:required:invalid {
+  outline: orange solid 2px;
+}
+
+
+/*
+.first-name-field:focus:invalid + .message::after {
+  color: orange;
+  content: "Required your first name";
+}
+
+
+.last-name-field:focus:invalid + .message::after {
+  color: orange;
+  content: "Required your last name";
+}
+
+
+.father-name-field:focus:invalid + .message::after {
+  color: orange;
+  content: "Required your father name";
+  }  
+  */
+
+
+.date-field {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+.dob-field:focus:out-of-range + .message::after {
+ color: orange;
+ content: "Date is out of range";
+}
+
+
+.tel-field:focus:invalid + .message::after {
+  color: orange;
+  content: "Required telephone number";
+}
+
+
+.hs-field:focus:invalid + .message::after {
+  color: orange;
+  content: "Required high school name";
+}
+
+
+.address-field:focus:invalid + .message::after {
+  color: orange;
+  content: "Required permanent address";
+}
+
+.email-field:focus:invalid + .message::after {
+  color: orange;
+  content: "Required email address";
+}
+*/
+
+.form-button {
+  background: linear-gradient(180deg, #808080, #2a2a2a);
+  border: none;
+  border-radius: 0;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 4em;
+  margin-top: 1em;
+}
+
+
